@@ -3,6 +3,7 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -19,5 +20,8 @@ public class MainActivity extends AppCompatActivity {
                 (Toast.makeText(MainActivity.this, "Hello World", Toast.LENGTH_LONG)).show();
             }
         });
+
+
+        Log.d("Test", "This is a test!");
     }
 }
